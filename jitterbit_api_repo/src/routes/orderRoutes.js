@@ -1,0 +1,10 @@
+const express=require("express");
+const {authMiddleware}=require("../middleware/auth");
+const Order=require("../controllers/orderController");
+const router=express.Router();
+router.post("/order",authMiddleware,Order.create);
+router.get("/order/:id",authMiddleware,Order.getOne);
+router.get("/order/list",authMiddleware,Order.list);
+router.put("/order/:id",authMiddleware,Order.update);
+router.delete("/order/:id",authMiddleware,Order.remove);
+module.exports=router;
