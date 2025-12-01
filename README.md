@@ -80,7 +80,8 @@ var nome = "Ana";
 
 ```js
 if (idade >= 18 && possuiDocumento) {}
-if (temperatura < 10 || chovendo) {}
+else if (idade >= 18 && !possuiDocumento) {}
+else {}
 ```
 
 ### **14. Sintaxe do try**
