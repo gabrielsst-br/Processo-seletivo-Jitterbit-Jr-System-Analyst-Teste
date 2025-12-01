@@ -119,6 +119,7 @@ function validarIdade(idade) {
 ### **3. Ordenar resultados**
 
 **Resposta:** d) `ORDER BY`
+Obs.: Por padrão o `ORDER BY` ordena em `ASC`
 
 ### **4. Inserir dados**
 
@@ -171,7 +172,3 @@ function validarIdade(idade) {
 ### **10. Diferença entre integração síncrona e assíncrona**
 
 **Resposta:** a) Síncrona = resposta imediata; Assíncrona = resposta posterior.
-
----
-
-Se quiser transformar este README em **PDF**, **Markdown separado**, ou deixá-lo mais bonito, posso gerar isso para você.
